@@ -372,7 +372,7 @@ void introduction() {
 	char ch{ 34 };
 	cout << "TYPE " << ch << "on" << ch << " TO TURN ON AIB OS" << endl;
 	cin >> userInpot;
-	if (userInpot == "on" || "ON") {
+	if (userInpot == "on") {
 		cout << "WELCOME to AIB OS";
 		cout << endl;
 		cout << "I'm an AI who opens everything for you," << endl;
